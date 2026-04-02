@@ -1,0 +1,7 @@
+[
+    {"title": "Meteor 350", "imgurl": "/images/Meteor350.jpg", "price": 50000, "description": "Meteor 350 is a popular model of motorcycle.", "alt": "Meteor 350"},
+    {"title": "Hunter 350", "imgurl": "/images/Hunter350.jpg", "price": 60000, "description": "Hunter 350 is a popular model of motorcycle.", "alt": "Hunter 350"},
+    {"title": "Goan Classic", "imgurl": "/images/GoanClassic.jpg", "price": 50000, "description": "Goan Classic is a popular model of motorcycle.", "alt": "Goan Classic"},
+    {"title": "Himalayan", "imgurl": "/images/Himalayan.jpg", "price": 55000, "description": "Himalayan is a popular model of motorcycle.", "alt": "Himalayan"},
+    {"title": "Guerilla", "imgurl": "/images/Guerilla.jpg", "price": 45000, "description": "Guerilla is a popular model of motorcycle.", "alt": "Guerilla"}
+]

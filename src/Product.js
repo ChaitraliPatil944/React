@@ -4,13 +4,14 @@ class Product extends React.Component{
     render(){
         return(
             <div>
-                
-                <p>Title : Gerbera</p>
-                <img src="\images\Lotus.jpg" width="100px" height="100px"/>
-                <p>Price : 100</p>
-                <p>Description : Gerbera is a genus of ornamental plants from the sunflower family.</p>
-
+                <h3>Popular Bikes of Royal Enfield </h3>
+                <p>Title :{this.props.title}</p>
+                <img src={this.props.imgurl} alt={this.props.alt} width="100px" height="100px"/>
+                <p> Price: {this.props.price}</p>
+                <p> Description: {this.props.description}</p>
+                <br/>
                 <button> Add to Cart</button>
+                
             </div>
         )
     }

@@ -1,9 +1,11 @@
+import { BrowserRouter as Router , Link ,Route, Routes } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Login from './Login';
 import Register from './Register';
 import Product from './Product';
-import { BrowserRouter as Router } from 'react-router-dom';
+import List from './List';
+
 
 
 function App() {
@@ -18,11 +20,29 @@ function App() {
 function BasicRouting(){
   return( <div>
          <h1>transflower Store</h1>
+         <hr/>
         <Router>
+          <Link to="/">Home</Link> | 
+          <Link to="/about">About</Link> | 
+          <Link to="/contact">Contact us</Link>
+          <Link to ="/login">Login</Link> | 
+          <Link to="/register">Register</Link> | 
+          <Link to="/product">Product</Link>
+          <hr/>
+          <Routes>
+            <Route exact path ="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/login" element={<Login/>}/>
+            <Route path="/register" element={<Register/>}/>
+            <Route path="/product" element={<List/>}/>
+          </Routes>
         </Router>
         </div> );
 }
     
+
+
 
 function Home(){
   return(
