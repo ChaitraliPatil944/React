@@ -1,0 +1,29 @@
+[{
+    "customername":"IBM",
+    "orderdate":"2023-10-01",
+    "ammount":5000,
+    "quantity":2,
+    "status":"Shipped"
+},
+{
+    "customername":"TCS",
+    "orderdate":"2023-10-05",
+    "ammount":3000,
+    "quantity":1,
+    "status":"Processing"
+},
+{
+    "customername":"Infosys",
+    "orderdate":"2023-10-10",
+    "ammount":7000,
+    "quantity":3,
+    "status":"Delivered"
+},
+{
+    "customername":"Wipro",
+    "orderdate":"2023-10-15",
+    "ammount":4000,
+    "quantity":2,
+    "status":"Cancelled"
+}
+]

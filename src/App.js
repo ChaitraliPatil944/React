@@ -5,6 +5,7 @@ import Login from './Login';
 import Register from './Register';
 import Product from './Product';
 import List from './List';
+import Orders from './Orders';
 
 
 
@@ -24,18 +25,21 @@ function BasicRouting(){
         <Router>
           <Link to="/">Home</Link> | 
           <Link to="/about">About</Link> | 
-          <Link to="/contact">Contact us</Link>
+          <Link to="/contact">Contact us |</Link>
           <Link to ="/login">Login</Link> | 
           <Link to="/register">Register</Link> | 
-          <Link to="/product">Product</Link>
+          <Link to="/bikes">Product</Link> |
+          <Link to="/orders">Orders</Link>
           <hr/>
           <Routes>
             <Route exact path ="/" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/login" element={<Login/>}/>
+            
             <Route path="/register" element={<Register/>}/>
-            <Route path="/product" element={<List/>}/>
+            <Route path="/bikes" element={<List/>}/>
+            <Route path="/orders" element={<Orders/>}/>
           </Routes>
         </Router>
         </div> );

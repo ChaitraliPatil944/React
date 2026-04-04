@@ -6,7 +6,7 @@ class Product extends React.Component{
             <div>
                 <h3>Popular Bikes of Royal Enfield </h3>
                 <p>Title :{this.props.title}</p>
-                <img src={this.props.imgurl} alt={this.props.alt} width="100px" height="100px"/>
+                <img src={this.props.imgurl} alt={this.props.alt} width="550px" height="400px"/>
                 <p> Price: {this.props.price}</p>
                 <p> Description: {this.props.description}</p>
                 <br/>
